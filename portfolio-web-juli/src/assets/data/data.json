@@ -1,0 +1,17 @@
+{ "portfolio": 
+    {
+    "nombre": "Julia",
+    "apellido": "Lagleyze",
+    "titulo": "Full Stack Developer Jr",
+    "backImage": "url a la imagen",
+    "image": "url a la imagen"
+       },  
+    "estudio": {
+        "titulo":"Full Stack Developer Jr",
+        "institucion": "Min. de Desarrollo Productivo de la Nacion-INTI",
+        "anio": "2022",
+        "credencial": "-",
+        "image": "url a la imagen"
+    }
+}
+

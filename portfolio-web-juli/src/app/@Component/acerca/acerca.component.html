@@ -1,0 +1,20 @@
+<div class="card mat-card" id="first-card">
+  <div id="profile-background">
+    <img [scr]="miPortfolio.backImage" alt="imagen profile"
+    />
+  </div>
+   <div id="info" style ="padding: 16px">
+     <div id="info-img">
+      <img [src]="miPortfolio.image" alt="imagen prefil"
+      />
+      <div class="btn-edit">
+        <a href="#" class="btn-right"><i class="fa fa-pen"></i> </a>
+      </div>
+     </div>
+     <div id="info-data">
+      <div class="card-body">
+        <h2><div class="card-body">
+        <h2>{{miPortfolio.nombre}} +" " +{{miPortfolio. apellido}} </h2>
+        <p>{{miPortfolio.titulo}}</p>
+     </div>      
+

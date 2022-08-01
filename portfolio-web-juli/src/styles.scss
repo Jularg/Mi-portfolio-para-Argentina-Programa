@@ -1,0 +1,197 @@
+/*<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+
+
+<!--LINK fonts de google --> 
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto+Flex:opsz@8..144&family=Roboto:wght@100&display=swap">
+<!--LINK ICONOS EDICION Y BORRAR DE GOOGLE-->
+
+<!--link rel="edit icon" href="<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />" type="image/x-icon"-->
+<!--link rel="delete icon" href="<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />" type="image/x-icon"-->*/
+
+@import 'assets/CSS/bootstrap.min.css';
+@import 'assets/CSS/front_css_1.css';
+@import 'https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto+Flex:opsz@8..144&family=Roboto:wght@100&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />" type="image/x-icon';
+@import 'https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />" type="image/x-icon';
+
+
+*{
+font-family: Roboto;
+font-size: 12;
+font-family: sans-serif;
+font-weight: normal;
+}
+
+.resaltado_derecha {
+  text-align: right;
+  font: Permament Marker;
+  font-size: 10;
+  
+}
+
+.container-md{
+  background-color: #53ccb8;
+}
+
+.container{
+  background-color: #ebf1f0;
+  flex: 1;
+  text-align: left;
+ font-size: 14;
+ font-size-adjust: auto;
+ font-weight: 200;
+ 
+}
+
+.yoprogramo {
+  padding-top: 1rem;
+  color: #eff5f4;
+  font-weight : 400; 
+
+}
+
+.foto-fondo{
+    /* Ubicación de la imagen */
+    
+    background-image: url(images/background-photo.jpg);
+    
+    /* Para dejar la imagen de fondo centrada, vertical y
+    
+    horizontalmente */
+    
+    background-position: center center;
+    
+    /* Para que la imagen de fondo no se repita */
+    
+    background-repeat: no-repeat;
+    
+    /* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+    
+    background-attachment: fixed;
+    
+    /* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+    
+    background-size: cover;
+    
+    /* Se muestra un color de fondo mientras se está cargando la imagen
+    
+    de fondo o si hay problemas para cargarla */
+    
+    background-color:#53ccb8 ;
+      
+}
+
+.card-perfil img{
+  max-width:150px;
+  position:absolute;
+  bottom:0;
+  left:50%;
+  transform:translate(-50%,50%);
+}
+
+.card-body{
+  background-color:#fff;
+  text-transform:capitalize;
+  text-align:center;
+  padding:20px 30px;
+}
+
+.card-body h2{
+  font-size:32px;
+  margin-top:64px;
+}
+
+.bloque_estudio{
+  background-size: auto;
+  background-color:#c4cccb;
+  font: Roboto;
+  font-size: 12;
+  font-style: italic;
+
+}
+
+.skills-wrapper {
+  display: flex;
+
+}
+
+.skill {
+  width: 200px;
+  height: 200px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3), -5px -5px 20px rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  position: relative;
+  display: grid;
+  place-items: center;
+}
+
+.skill:not(:last-child) {
+  margin-right: 3rem;
+}
+
+.skill::before {
+  content: "";
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  border-radius: 50%;
+  background-color: #111111;
+  box-shadow: inset 5px 5px 20px rgba(0, 0, 0, 0.3),
+    inset -5px -5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.skill:nth-child(1) {
+  background-image: conic-gradient(#e98659 90%, transparent 0);
+  color: #e98659;
+}
+
+.skill:nth-child(2) {
+  background-image: conic-gradient(#5aafe0 60%, transparent 0);
+  color: #5aafe0;
+}
+
+.skill:nth-child(3) {
+  background-image: conic-gradient(#f0e176 70%, transparent 0);
+  color: #f0e176;
+}
+.skill:nth-child(4) {
+  background-image: conic-gradient(#e98659 95%, transparent 0);
+  color: #e98659;
+}
+
+.skill:nth-child(5) {
+  background-image: conic-gradient(#5aafe0 80%, transparent 0);
+  color: #5aafe0;
+}
+
+.skill:nth-child(6) {
+  background-image: conic-gradient(#f0e176 100%, transparent 0);
+  color: #f0e176;
+}
+.skill:nth-child(7) {
+  background-image: conic-gradient(#e98659 95%, transparent 0);
+  color: #e98659;
+}
+
+.skill:nth-child(8) {
+  background-image: conic-gradient(#5aafe0 70%, transparent 0);
+  color: #5aafe0;
+}
+
+.skill:nth-child(9) {
+  background-image: conic-gradient(#f0e176 60%, transparent 0);
+  color: #f0e176;
+}
+
+
+.content {
+  font-size: 20px;
+  z-index: 1;
+  text-align: center;
+  font-family: Poppins;
+}
+
+.content span {
+  display: block;
+}
+

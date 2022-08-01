@@ -1,0 +1,36 @@
+<div class="container_header ">
+
+   <div id="experiencia">
+     <div class="card-titles">
+       <h3 class="text-white">EXPERIENCIA</h3>
+        <div class="btn-edit">
+         <a href="#" class="btn-right"> <i class="fa fa-plus"></i></a>
+        </div>   
+   </div>
+ </div>
+    <div>
+     <ul class="item-list">
+       <li *ngFor="let experiencia of experienciaList" >
+         <div class="data-container">
+           <a href="#">
+             <div class="logo-image-container">
+               <img  class="logo-image" [src]="experiencia.image" alt="imagen institucion"
+               />
+             </div>
+             <div class="list-info">
+               <div>
+                   <h4>{{experiencia.cargo}} </h4>
+                   <p>{{experiencia.anio}} </p>
+                   <h4>{{experiencia.conocimiento}} </h4>
+                 </div> 
+             </div>
+           </a>
+         </div>
+       
+       </li>
+
+     </ul>
+     
+       </div>   
+     </div>
+  
